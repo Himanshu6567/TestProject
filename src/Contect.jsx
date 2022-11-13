@@ -6,7 +6,7 @@ function Contect() {
     <div className="py-20 mb-32 px-28 ">
       <div className="">
         <h className="flex justify-center text-2xl"> CONTACT</h>
-        <div className="flex justify-center space-x-10 mt-28">
+        <div className="justify-center space-y-5 sm:space-x-10 sm:flex mt-28">
           <div className="flex items-center ">
             <IoIosCall className="text-3xl animate-bounce" />
             <div className="flex flex-col pl-3">
@@ -17,7 +17,7 @@ function Contect() {
 
           <div className="flex items-center ">
             <MdLocationOn className="text-3xl animate-bounce" />
-            <div className="flex flex-col pl-3">
+            <div className="flex flex-col">
               <p>ADDRESS</p>
               <p> DEHRADUN</p>
             </div>
@@ -25,7 +25,7 @@ function Contect() {
 
           <div className="flex items-center">
             <MdEmail className="text-3xl animate-bounce" />
-            <div className="flex flex-col pl-3">
+            <div className="flex flex-col ">
               <p>EMAIL</p>
               <p>hellomahii@gmail.com</p>
             </div>
@@ -54,7 +54,8 @@ function Contect() {
           ></textarea>
         </div>
       </div>
-      <div className="flex justify-between mt-10 px-36">
+
+      <div className="justify-between mt-10 sm:flex px-36">
         <p>
           All the fields are required <span className="text-red-700">*</span>
         </p>
